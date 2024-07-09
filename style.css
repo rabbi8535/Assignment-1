@@ -375,7 +375,6 @@ main {
 .next-target .nt-container {
     width: 100%;
     height: 100%;
-
     text-align: center;
 }
 
@@ -414,7 +413,7 @@ main {
 
 .nt-container .nt-cards>div {
     width: 1168;
-    height: 250px;
+    min-height: 150px;
     display: flex;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -429,15 +428,17 @@ main {
     text-align: left;
 }
 
-.nt-container .nt-cards>div .img{
+.nt-container .nt-cards>div .img {
     width: 20%;
-    
+
     align-items: center;
 }
-.nt-container .nt-cards>div img{
+
+.nt-container .nt-cards>div img {
     width: 100%;
-    
+
 }
+
 .nt-container .nt-cards>div h3 {
 
     font-weight: 800;
@@ -457,4 +458,102 @@ main {
     line-height: 19px;
     font-weight: 800;
     text-decoration: underline;
+}
+
+/* support section*/
+
+.feedback {
+
+    width: 100%;
+    height: 314px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/handshake.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 16px;
+
+
+
+}
+
+.feedback-container {
+    width: 1044px;
+    height: 100%;
+    margin: 16px auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+
+}
+
+.feedback-container .title {
+    width: 730px;
+    height: 104px;
+    margin: 24px auto;
+    color: rgb(255, 255, 255);
+
+}
+
+.feedback-container .title h2 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 800;
+    margin: 16px 0px;
+}
+
+.feedback-container .title p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+    margin: 20px 0px;
+    opacity: 0.7;
+}
+
+
+.feedback-container .input {
+    width: 100%;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    
+
+
+}
+
+.feedback-container input{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.feedback-container .input input[type='text'] {
+    width: 548px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px;
+
+
+}
+
+.feedback-container .input input[type='submit'] {
+    width: 10%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+    color: rgb(13, 19, 33);
+
 }
