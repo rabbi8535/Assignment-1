@@ -127,6 +127,7 @@ main {
     background: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
 }
+
 .about-container {
     padding: 50px 0px;
 }
@@ -222,14 +223,14 @@ main {
 
 
 /* inspiration section */
-.inspiration{
+.inspiration {
 
     width: 100%;
     margin: 50px auto;
-    
+
 }
 
-.insp-container{
+.insp-container {
 
     max-width: 1076px;
     margin: 30px auto;
@@ -237,39 +238,130 @@ main {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    
+
 
 }
 
-.insp-container .tittle{
-  
+.insp-container .tittle {
+
     height: 113px;
     align-items: center;
     color: rgb(13, 19, 33);
     margin: 61px 0px;
 }
 
-.insp-container .tittle h1{
-    
+.insp-container .tittle h1 {
+
     font-size: 32px;
     line-height: 37px;
     font-weight: 800;
 }
 
-.insp-container .tittle p{
+.insp-container .tittle p {
     margin: 24px 0px;
     font-size: 16px;
     font-weight: 400;
 }
 
-.insp-container .video-frame{
+.insp-container .video-frame {
     width: 100%;
     height: 550px;
     margin: 10px 0px;
-   
+
 }
 
-.insp-container .video-frame iframe{
+.insp-container .video-frame iframe {
     border-radius: 16px;
 }
 
+
+/* current-target section*/
+.current-target {
+    width: 100%;
+    height: 660px;
+    margin: 111px auto;
+}
+
+.ct-container {
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+    text-align: center;
+}
+
+.ct-container .ct-title {
+    height: 113px;
+    margin: 48px 0px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+
+.ct-container .ct-title h1 {
+
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin: 24px 0px;
+
+}
+
+.ct-container .ct-title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+
+.ct-container .ct-cards {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+
+}
+
+
+.ct-container .ct-cards>div {
+    width: 350px;
+    height: 350px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 35px;
+    margin: 10px 10px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    line-height: 36px;
+    text-align: left;
+}
+
+.ct-container .ct-cards>div h3 {
+
+    font-weight: 800;
+    margin: 8px 0px;
+}
+
+.ct-container .ct-cards>div p {
+    font-weight: 400;
+    margin: 8px 0px;
+
+}
+
+.ct-container .ct-cards>div a {
+    color: rgb(13, 19, 33);
+    margin: 24px 0px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.ct-container .ct-cards>div:nth-child(2) {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.ct-container .ct-cards>div:nth-child(3) {
+    background: rgba(255, 223, 0, 0.05);
+}
